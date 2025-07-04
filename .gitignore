@@ -1,0 +1,33 @@
+# Arquivos e pastas ignorados em projetos R com Quarto e renv
+
+# renv (ambiente local)
+renv/library/
+renv/staging/
+renv/python/
+renv/profiles/
+
+# Arquivos temporários de build
+*.html
+*.pdf
+*.docx
+
+# Dados exportados ou gerados
+*.xlsx
+*.csv
+*.rds
+
+# R e Quarto cache
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+.cache/
+.quarto/
+
+# RStudio
+*.Rproj
+.Ruserdata
+
+# Outros arquivos comuns a evitar
+.DS_Store
+*.log
