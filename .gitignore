@@ -7,12 +7,12 @@ renv/python/
 renv/profiles/
 
 # Arquivos temporários de build
-*.html
-*.pdf
-*.docx
+# *.html
+# *.pdf
+# *.docx
 
 # Dados exportados ou gerados
-*.xlsx
+# *.xlsx
 *.csv
 *.rds
 
