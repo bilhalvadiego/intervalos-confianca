@@ -1,0 +1,23 @@
+project:
+  type: manuscript
+  output-dir: _bilhalvadiego
+manuscript:
+  article: index.qmd
+
+format:
+  html:
+    comments:
+      hypothesis: true
+  
+  # jats: default
+
+  # (other formats)
+  pdf: default
+  docx: default
+  
+csl: abnt.csl
+
+execute:
+  freeze: true
+
+editor: visual

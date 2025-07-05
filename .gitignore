@@ -31,3 +31,5 @@ __pycache__/
 # Outros arquivos comuns a evitar
 .DS_Store
 *.log
+
+/.quarto/
