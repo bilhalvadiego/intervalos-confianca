@@ -7,7 +7,7 @@ authors:
     roles: [writing]
     orcid: https://orcid.org/0009-0008-1300-8278
     corresponding: true
-  - name: Marcelo Amaral
+  - name: Marcelo Roberto Santos do Amaral Amaral
     email: amaral.marcelor@gmail.com
     affiliation: UFRJ - Universidade Federal do Rio de Janeiro
     roles: [writing]
@@ -73,9 +73,9 @@ ic1 <- ic_tool$gerar_ic(
   ,seed = 123
 )
 
-write_xlsx(ic1, "output/ic_exercicio_1.xlsx")
-mean(ic1$contem_media_real)
 ```
+
+`{write_xlsx(ic1, "output/ic_exercicio_1.xlsx")} mean(ic1$contem_media_real)`
 
 ```{r}
 
